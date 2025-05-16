@@ -1,0 +1,18 @@
+what is a data structure:
+--------------------------
+
+A named location that can be used to store and organize data
+
+examples:
+1.Tree:Family Tree ,A heirarchy of family relationships
+2.Array:A collection of elements stored at contiguous memory locations.
+
+
+What's an algorithm:
+---------------------
+
+A collection of steps to solve a program
+
+example:Linear search -> one by one ,examine the elements of an array to find a value
+
+
