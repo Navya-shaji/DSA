@@ -1,3 +1,22 @@
+//......................................................TREE............................................................................................................
+
+// class TreeNode {
+//   constructor(value) {
+//     this.value = value;
+//     this.children = [];
+//   }
+  
+//   addChild(node) {
+//     this.children.push(node);
+//   }
+// }
+
+// const root = new TreeNode(4);
+
+
+
+
+
 //....................................................................BST.....................................................................................
 
 // class Node{
@@ -46,22 +65,23 @@
 //             }
 //         }
 //         return false
-//     }
-//     findClosest(target){
-//         let current=this.root;
-//         let closest=this.root.value
-//         while(current){
-//             if(Math.abs(target-current.value)<Math.abs(target-closest)){
-//                 current=closest
-//             }
-//             if(target<current.value){
-//                 current=current.left
-//             }else {
-//                 current=current.right
-//             }
+// }
+// findClosest(target){
+//     let current = this.root;
+//     let closest = this.root.value;
+//     while(current){
+//         if(Math.abs(target - current.value) < Math.abs(target - closest)){
+//             closest = current.value; 
 //         }
-//         return closest
+//         if(target < current.value){
+//             current = current.left;
+//         } else {
+//             current = current.right;
+//         }
 //     }
+//     return closest;
+// }
+
 //     findMin(node=this.root){
 //         if(!node) return null
 //         while(node.left){
