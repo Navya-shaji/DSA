@@ -25,7 +25,7 @@
 //             this.Graph[key]=this.Graph[key].filter((v)=>v!==vertex)
 //         }
 //     }
-//     BSF(start){
+//     BFS(start){
 //         if(!this.Graph[start]) return 
 //         let queue=[start]
 //         let result=[]
@@ -44,7 +44,7 @@
 //         }
 //         return result
 //     }
-//     DSF(start){
+//     DFS(start){
 //         if(!this.Graph[start]) return []
 //         let stack=[start]
 //         let result=[]
@@ -108,4 +108,5 @@
 
 // console.log("Breadth-First Search (BFS) from A:", graph.BSF('A'))
 // console.log("Breadth-First Search (BFS) from A:", graph.DSF('A'))
+
 // console.log("ShortesPath",graph.ShortesPath('A',"C"))
